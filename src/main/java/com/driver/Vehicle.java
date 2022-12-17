@@ -33,7 +33,7 @@ public class Vehicle {
     public int direction(){
         return this.currentDirection;
     }
-    public int speed(){
+    public int getCurrentSpeed(){
         return this.currentSpeed;
     }
 }
