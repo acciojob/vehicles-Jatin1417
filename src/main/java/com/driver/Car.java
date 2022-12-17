@@ -37,7 +37,19 @@ public class Car extends Vehicle {
         return this.seats;
     }
     public int getCurrentGear(){
-        return this.gears;
+        return this.currentGear;
     }
+   public int getDoors(){
+    return this.doors;
+   }
+   public boolean isManual(){
+    return this.isManual;
+   }
+   public int getGears(){
+    return this.gears;
+   }
+   public int getWheels(){
+    return this.wheels;
+   }
 
 }
