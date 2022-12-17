@@ -1,4 +1,3 @@
-import com.driver.WaterVehicle;
 public class Boat implements WaterVehicle{
     String name;
     int capacity;
