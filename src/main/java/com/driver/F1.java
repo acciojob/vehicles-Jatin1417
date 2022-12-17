@@ -8,7 +8,7 @@ public class F1 extends Car {
     }
    
    public int getCurrentDirection(){
-      return super.direction();
+      return super.getCurrentDirection();
    }
 
     public void accelerate(int rate){
